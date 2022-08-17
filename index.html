@@ -5,75 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Argemiro's Personal Site</title>
+    <title>Argemiro Lucena</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="images/profile_picture.png" alt="Argemiro Profile Picture" width="150px"></td>
-            <td>
-                <h1>Argemiro Lucena</h1>
-                <p><em><strong>Meteorologist</strong> and programming beginner.</em></p>
-                <p>I'm a Web Developer and Programmer. I currently work with JavaScript and Python.</p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Social Media</h3>
-    <ul>
-        <li><a href="http://twitter.com/argemirolucena">Twitter</a></li>
-        <li><a href="http://instagram.com/argemirolucena">Instagram</a></li>
-    </ul>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li>Meteorology - Universidade Federal de Campina Grande</li>
-        <li>Industrial Chemestry - Universidade Estadual da Paraíba</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2015-2017</td>
-                <td>Campina Geotech Consultoria em Meteorologia LTDA</td>
-            </tr>
-            <tr>
-                <td>2016-2017</td>
-                <td>PhD Meteorology - Universidade Federal de Campina Grande</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>JavaScript</td>
-            <td>★☆☆☆☆</td>
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td>★★★☆☆</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>★★☆☆☆</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>★☆☆☆☆</td>
-        </tr>
-    </table>
-    <hr>
-    <p><a href="hobbies.html">Hobbies</a></p>
-    <p><a href="contact.html">Contact Me</a></p>
+    <div class="top-container">
+        <img class="moon" src="images/moon.png" alt="moon-img">
+        <h1>I'm Argemiro,</h1>
+        <h2>a web developer and <span class="pro">pro</span>grammer.</h2>
+        <img class="rocket" src="images/rocket.png" alt="rocket-img">
+        <img class="planet-earth" src="images/planet-earth-half.png" alt="planet-earth-img">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="profile-img" src="images/profile.png" alt="profile-img">
+            <h2>Hello.</h2>
+            <p class="intro">Hello everybody! I'm Argemiro Lucena, a Web Developer and Programmer. I'm currently
+                studying HTML5, CSS3 and JavaScript to be able to create and develop excellent websites and apps for my
+                clients. I also love Music, Games, Movies and TV Shows.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="html5-img" src="images/html5.png" alt="html5-img">
+                <h3>HTML 5 ★★★☆☆</h3>
+                <p>I developed some websites back in the 90's just for fun. Now, I started studying HTML and it's
+                    amazing how much it has evolved and what we can do today. It's just amazing what we can do!</p>
+            </div>
+            <div class="skill-row">
+                <img class="css3-img" src="images/css-3.png" alt="css3-img">
+                <h3>CSS 3 ★★☆☆☆</h3>
+                <p>CSS is just wonderful! I remember when I created websites back in the 90's and how hard it was to get
+                    them to look cool. Everything is easier today with CSS and I'm loving learning more.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you love programming like I do, get in touch!</h3>
+            <p class="contact-message">I would love to talk to you about programming, games, music, or anything else we
+                have in common. Criticism and suggestions are also welcome.</p>
+            <a class="btn" href="mailto:argemirolucena@hotmail.com">CONTACT ME</a>
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/argemirolucena">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/argemirolucena">Twitter</a>
+        <a class="footer-link" href="https://www.gamerscore.com.br/">Website</a>
+        <p class="copyright">©2022 Argemiro Lucena.</p>
+    </div>
 </body>
 
 </html>
