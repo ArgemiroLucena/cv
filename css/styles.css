@@ -88,17 +88,18 @@ h3 {
     position: absolute;
     right: 300px;
     top: 40px;
-    width: 100px;
+    width: 5%;
 }
 
 .rocket {
     bottom: 200px;
     left: 250px;
     position: absolute;
-    width: 100px;
+    width: 5%;
 }
 
 .planet-earth {
+    width: 25%;
     margin: 50px 0 0;
 }
 
